@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deploy Otomatis — Aktif</title>
+<style>
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+ body {
+ font-family: system-ui, -apple-system, sans-serif;
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: #;
+ color: #;
+ }
+.card {
+ text-align: center;
+ padding: 3rem;
+ border: 1px solid #;
+ border-radius: 16px;
+ background: #121218;
+ max-width: 480px;
+ }
+.dot {
+ width: 14px; height: 14px;
+ background: #;
+ border-radius: 50%;
+ margin: 0 auto 1.5rem;
+ box-shadow: 0 0 16px #;
+ animation: pulse 2s infinite;
+ }
+ @keyframes pulse { 50% { opacity:.5; } }
+ h1 { font-size: 1.5rem; margin-bottom:.75rem; }
+ p { color: #; line-height: 1.6; }
+ code {
+ display: inline-block;
+ margin-top: 1rem;
+ padding:.4rem.8rem;
+ background: #;
+ border-radius: 8px;
+ font-size:.85rem;
+ color: #;
+ }
+</style>
+</head>
+<body>
+ <div class="card">
+ <div class="dot"></div>
+ <h1>Deploy Otomatis Aktif</h1>
+ <p>Setiap push ke branch <b>main</b> otomatis ter-deploy ke Cloudflare Pages.<br>Tanpa token. Tanpa YAML. Tanpa ribet.</p>
+ <code>edit file ini → push → live</code>
+ </div>
+</body>
+</html>
